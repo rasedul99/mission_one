@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+h1 {
+  font-size: 50px;
+  font-weight: 900;
+}
+section {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 150px;
+  margin-top: 50px;
+}
+.flexible_container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.half_width {
+  width: 40%;
+}
+.left_border {
+  border-left: 3px solid #40e0d0;
+  padding-left: 10px;
+  border-radius: 2px;
+}
+.blue {
+  color: #0052cc;
+}
+.half_width img {
+  width: 100%;
+}
+.btn_container {
+  margin: 25px 0;
+}
+.btn {
+  text-decoration: none;
+  background-color: #40e0d0;
+  font-weight: 400;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: white;
+}
+.plan h1 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.plan_item {
+  width: 30%;
+  border-radius: 15px;
+  padding: 0 40px;
+}
+.mission {
+  background-color: violet;
+}
+.vission {
+  background-color: turquoise;
+}
+.goal {
+  background-color: wheat;
+}
+.plan_item img {
+  width: 60%;
+}
+.commitment_wrapper {
+  background-color: turquoise;
+  border-radius: 10px;
+  padding: 10px;
+}
+.commitment_area h1 {
+  text-align: center;
+}
+.commitment {
+  padding: 15px 15px;
+}
+cite {
+  text-transform: uppercase;
+}
+footer {
+  height: 100px;
+  width: 100%;
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding: 10px 0;
+}
